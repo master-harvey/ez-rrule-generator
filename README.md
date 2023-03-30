@@ -5,3 +5,5 @@ An alternative RRule Generator made using React, Tailwind, and daisyUI. Simply s
 Ex: `<EzRRule onChange={(c) => console.log(c)} startDate={new Date()} />`
 
 Make sure to follow all installation instructions for [Tailwind](https://tailwindcss.com/docs/installation) and [DaisyUI](https://daisyui.com/docs/install/).
+
+[Try it out](https://codesandbox.io/p/github/master-harvey/ez-rrule-generator/ "&lt;Code Sandbox&gt;")
