@@ -1,20 +1,41 @@
 {
   "name": "ez-rrule-generator",
-  "private": true,
-  "version": "0.0.0",
+  "version": "1.0.5",
+  "description": "An alternative RRule Generator made using React, Tailwind, and daisyUI",
+  "main": "dist/index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/master-harvey/ez-rrule-generator.git"
+  },
+  "keywords": [
+    "rrule",
+    "generator",
+    "tailwind",
+    "daisyui",
+    "daisy",
+    "react",
+    "calendar",
+    "repetition",
+    "rules",
+    "rule"
+  ],
+  "author": "Ian Harvey",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/master-harvey/ez-rrule-generator/issues"
+  },
+  "homepage": "https://github.com/master-harvey/ez-rrule-generator#readme",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
-  "dependencies": {
+  "peerDependencies": {
     "daisyui": "^2.51.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "rrule": "^2.7.2"
-  },
-  "devDependencies": {
+    "rrule": "^2.7.2",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
     "@vitejs/plugin-react": "^3.1.0",
