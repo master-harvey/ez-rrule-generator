@@ -3,6 +3,8 @@
   "version": "1.0.6",
   "description": "An alternative RRule Generator made using React, Tailwind, and daisyUI",
   "main": "dist/index.html",
+  "module": "dist/index.html",
+  "files": [ "dist", "README.md" ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/master-harvey/ez-rrule-generator.git"
