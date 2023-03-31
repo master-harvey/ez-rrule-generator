@@ -1,0 +1,15 @@
+.centered {
+    color: white;
+    text-align: center;
+}
+
+.wrapper {
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background-color: #333;
+}
