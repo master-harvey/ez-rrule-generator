@@ -2,12 +2,18 @@
   "name": "ez-rrule-generator",
   "version": "1.0.7",
   "description": "An alternative RRule Generator made using React, Tailwind, and daisyUI",
-  "main": "dist/assets/index-*.js",
-  "module": "dist/assets/index-*.js",
+  "main": "dist/ez-rrule.umd.js",
+  "module": "dist/ez-rrule.es.js",
   "files": [
     "dist",
     "README.md"
   ],
+  "exports": {
+    ".": {
+      "import": "./dist/ez-rrule.es.js",
+      "require": "./dist/ez-rrule.umd.js"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/master-harvey/ez-rrule-generator.git"
@@ -36,17 +42,22 @@
     "build": "vite build",
     "preview": "vite preview"
   },
-  "peerDependencies": {
+  "dependencies": {
     "daisyui": "^2.51.5",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "rrule": "^2.7.2",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.3.0"
+  },
+  "devDependencies": {
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
     "@vitejs/plugin-react": "^3.1.0",
     "autoprefixer": "^10.4.14",
-    "postcss": "^8.4.21",
-    "tailwindcss": "^3.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rrule": "^2.7.2",
     "vite": "^4.2.0"
+  },
+  "parserOptions": {
+    "sourceType": "module"
   }
 }

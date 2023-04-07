@@ -67,9 +67,8 @@ export default function EzRRule(props) {
         {(frequency == "Week") && <div className="flex flex-row space-x-1 col-span-3 mx-auto">
             {["MO", "TU", "WE", "TH", "FR", "SA", "SU"].map((d) => (
                 <div
-                    className={`badge hover:cursor-pointer ${daysOfWeek[d].enabled ? "" : "badge-outline"}`}
+                    className={`badge hover:cursor-pointer ${daysOfWeek[d].enabled ? "" : "badge-outline"}`} key={d}
                     onClick={() => { setDaysOfWeek({ ...daysOfWeek, [d]: { enabled: !daysOfWeek[d].enabled, day: daysOfWeek[d].day } }) }}
-                    key={d}
                 >{d}</div>
             ))}
         </div>}
