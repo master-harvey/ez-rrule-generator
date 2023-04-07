@@ -16,5 +16,6 @@ export default function App() {
                 <img src={githubLogo} alt="github" width={25} />
             </a>
         </p>
+        <br />
     </>
 }
