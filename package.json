@@ -1,6 +1,6 @@
 {
   "name": "ez-rrule-generator",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "An alternative RRule Generator made using React, Tailwind, and daisyUI",
   "main": "dist/ez-rrule.umd.js",
   "module": "dist/ez-rrule.es.js",
